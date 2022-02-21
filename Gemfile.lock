@@ -1,3 +1,8 @@
+PATH
+  remote: ../../komagata/fjord_boot_camp
+  specs:
+    fjord_boot_camp (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -15,6 +20,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  fjord_boot_camp!
   functions_framework (~> 1.0)
 
 BUNDLED WITH
